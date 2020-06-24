@@ -1,0 +1,189 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0261CD0E-59C5-4298-85E1-6348F6E853FF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>myprojectsitecathy</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\sitecathygit\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="sitecathy\cathy.csproj" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\analytics.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\animations.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\background-check.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\bootstrap.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\classie.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\comment-reply.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\core.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\css" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\css%281%29" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\css%282%29" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\datepicker.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\forms-api.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\front.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\greensock.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\idangerous.swiper.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\imagesloaded.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\isotope.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery-migrate.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.appear.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.carouFredSel-6.1.0-packed.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.countdown.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.easing.1.1.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.easing.1.3.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.easy-pie-chart.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox-media.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.flexslider-min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.form.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.fullPage.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.hoverex.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.infinitescroll.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.mixitup.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.mobilemenu.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.onepage.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.parallax.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.placeholder.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.slicknav.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\js_composer_front.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\layerslider.kreaturamedia.jquery.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\layerslider.transitions.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\mailchimp.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\main.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\masonry.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\modernizr.custom.66803.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\odometer.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\picturefill.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\post-like.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\saved_resource" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\scrollTo.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\select2.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\skrollr.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\smoothscroll.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\tooltip.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\waypoints.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\wp-embed.min.js.téléchargement" />
+    <None Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\wp-emoji-release.min.js.téléchargement" />
+    <None Include="sitecathy\obj\Debug\build.force" />
+    <None Include="sitecathy\obj\Debug\cathy.csprojAssemblyReference.cache" />
+    <None Include="sitecathy\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="sitecathy\packages.config" />
+    <None Include="sitecathy\ressourcesSlide\bf5.js.téléchargement" />
+    <None Include="sitecathy\ressourcesSlide\ga.js.téléchargement" />
+    <None Include="sitecathy\ressourcesSlide\gestures.js.téléchargement" />
+    <None Include="sitecathy\Web.config" />
+    <None Include="sitecathy\Web.Debug.config" />
+    <None Include="sitecathy\Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecathy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="sitecathy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="sitecathy\cathy.csproj.user" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\Abbigliamento-lavanda-sportivo-Elena-Colombo-334x350.jpeg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\ac0e530387cb951f95ab08054a758223ec0e9c0b-350x350.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\Arancio-energia-nel-guardaroba-copertina-1024x614-350x350.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\bootstrap-responsive.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\business_round1.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\circle.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\Copertina-terra-guardiano-1024x614-350x350.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\d0f75144370414913a858ff31f4372d8-350x350.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\easy-social-share-buttons.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\EC-business.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\flick.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\font-awesome.min.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\form-themes.min.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\front.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\guardablog_600.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\hoverex-all.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\idangerous.swiper.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\IMG_8824.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.easy-pie-chart.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\jquery.fancybox.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\js_composer.min.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\layerslider.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\linecon.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\LOGO-EC.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\othercss\animate.min.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\othercss\bootstrap.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\othercss\flexslider.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\othercss\shortcodes.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\othercss\style.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\persona_round2.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\photo-1516274626895-055a99214f08-350x350.jpeg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\pillole2.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\regali_round1.png" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\skin.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\slide.jpg" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\steadysets.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\style.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\styles.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\vector-icons.css" />
+    <Content Include="sitecathy\Consulente d%27immagine _ EC IMMAGINE_files\woman-15696132.jpg" />
+    <Content Include="sitecathy\home.html" />
+    <Content Include="sitecathy\quisuisje.html" />
+    <Content Include="sitecathy\ressourcesSlide\enter453797_1280%281%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\enter453797_1280.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\IMG_5126.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\linen542866_1280%281%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\linen542866_1280.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\piano233684_1280%281%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\piano233684_1280.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\preview.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\stylesslider.css" />
+    <Content Include="sitecathy\ressourcesSlide\stylesslider.min.css" />
+    <Content Include="sitecathy\ressourcesSlide\thumb%281%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\thumb%282%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\thumb%283%29.jpg" />
+    <Content Include="sitecathy\ressourcesSlide\thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sitecathy\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sitecathy\obj\Debug\TempPE\" />
+    <Folder Include="sitecathy\obj\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
